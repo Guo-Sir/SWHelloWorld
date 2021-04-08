@@ -1,0 +1,6 @@
+framework module SWHelloWorld {
+  umbrella header "SWHelloWorld-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "SWViewController.h"
+#import "SWTestManager.h"
 
 @interface SWViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [[[SWTestManager alloc] init] testPrint:@"真帅！"];
 }
 
 - (void)didReceiveMemoryWarning

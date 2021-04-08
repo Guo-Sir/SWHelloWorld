@@ -59,13 +59,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71B24E15DAC5DB5DA0E568E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		71B24E15DAC5DB5DA0E568E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		82C9B6B308AC77E260068D6A /* Pods-SWHelloWorld_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWHelloWorld_Tests.release.xcconfig"; path = "Target Support Files/Pods-SWHelloWorld_Tests/Pods-SWHelloWorld_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B88A86E0FF504DFE9BF527C2 /* Pods_SWHelloWorld_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWHelloWorld_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5B100487BA7DB59C230DFF /* Pods_SWHelloWorld_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWHelloWorld_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD100CFA97A0568EE7AC9528 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DB3A3802AE1D3B58B7586DE9 /* SWHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWHelloWorld.podspec; path = ../SWHelloWorld.podspec; sourceTree = "<group>"; };
+		BD100CFA97A0568EE7AC9528 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB3A3802AE1D3B58B7586DE9 /* SWHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWHelloWorld.podspec; path = ../SWHelloWorld.podspec; sourceTree = "<group>"; };
 		FB1C8C2971FE6535E9AA1A64 /* Pods-SWHelloWorld_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWHelloWorld_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SWHelloWorld_Tests/Pods-SWHelloWorld_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				FB1C8C2971FE6535E9AA1A64 /* Pods-SWHelloWorld_Tests.debug.xcconfig */,
 				82C9B6B308AC77E260068D6A /* Pods-SWHelloWorld_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Guo-Sir";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ACG2WLF6X4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 324097AA6EBA4ACEA0A3CF6D /* Pods-SWHelloWorld_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACG2WLF6X4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWHelloWorld/SWHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "SWHelloWorld/SWHelloWorld-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 4D4D79D08031418E0468B9E4 /* Pods-SWHelloWorld_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACG2WLF6X4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWHelloWorld/SWHelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "SWHelloWorld/SWHelloWorld-Info.plist";
